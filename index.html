@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.5 JavaScript in browser</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-headline">
+        <h1 class="header__elements">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-div">
+        <div class="image-slider swiper mySwiper">
+          <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap.svg" alt="Lenovo" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (1).svg" alt="Samsung" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (2).svg" alt="Apple" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (3).svg" alt="ViewSonic" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (4).svg" alt="Bosch" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (5).svg" alt="Hp" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (6).svg" alt="Acer" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <button class="main__btn">
+                <img src="image/Bitmap (7).svg" alt="Sony" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide btn">
+              <button class="main__btn btn">
+                <img src="image/Bitmap (8).svg" alt="Lenovo" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide btn">
+              <button class="main__btn btn">
+                <img src="image/Bitmap (9).svg" alt="Samsung" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+            <div class="swiper-slide btn">
+              <button class="main__btn btn">
+                <img src="image/Bitmap (10).svg" alt="Apple" class="logo__btn" />
+                <img src="image/go.svg" alt="Кнопка" class="go__btn" />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination">  
+        </div>       
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-div">
+      <button class="footer__btn on" id="showMoreBtn">
+        <img src="image/expand.svg" alt="Кнопка" class="footer__img">Показать все
+      </button>
+    </div>
+    <div class="footer-div">
+      <button class="footer__btn off" id="showLessBtn" style="display: none;">
+        <img src="image/expand (1).svg" alt="Кнопка" class="footer__img">Скрыть
+      </button>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
